@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="WDD231 course homepage for Bethrand Nwankwo.">
+    <meta name="author" content="Bethrand Nwankwo">
+
+    <title>WDD231 - Home Page</title>
+
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            <img src="images/logo.svg" alt="Bethrand Nwankwo logo">
+            <span>Bethrand Nwankwo</span>
+
+            <button id="menu-button">☰</button>
+        </div>
+    </header>
+
+    <nav id="main-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="chamber/">Chamber</a>
+        <a href="final/">Final</a>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+
+        <section>
+            <h2>About Me</h2>
+            <p>
+                My name is Bethrand Nwankwo. I am a student at BYU-Idaho
+                through BYU-Pathway Worldwide. I am learning web development
+                and building my skills in HTML, CSS, and JavaScript.
+            </p>
+        </section>
+
+        <section>
+            <h2>Student Photo</h2>
+            <img src="images/profile.jpg" alt="Bethrand Nwankwo" width="250" height="250">
+        </section>
+
+        <section>
+            <h2>Web Certificate Courses</h2>
+
+            <div class="course-buttons">
+                <button id="all-courses">All</button>
+                <button id="wdd-courses">WDD</button>
+                <button id="cse-courses">CSE</button>
+            </div>
+
+            <div id="course-container">
+                <!-- Courses will be displayed here using JavaScript -->
+            </div>
+
+            <p id="credit-total">Total Credits: 0</p>
+        </section>
+
+    </main>
+
+    
+
+    <footer>
+        <p>
+            <a href="https://github.com/bethrandn" target="_blank">GitHub</a>
+            |
+            <a href="https://www.linkedin.com/in/bethrandn" target="_blank">LinkedIn</a>
+            |
+            <a href="https://www.byupathway.edu/" target="_blank">BYU-Pathway</a>
+            |
+            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+        </p>
+
+        <p>&copy; <span id="current-year"></span> Bethrand Nwankwo | Nigeria</p>
+
+        <p>Last Modified: <span id="last-modified"></span></p>
+    </footer>
+
+</body>
+
+</html>

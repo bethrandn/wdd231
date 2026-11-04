@@ -1,0 +1,185 @@
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #263238;
+}
+
+/* Header */
+header {
+    background-color: #12304a;
+    color: white;
+}
+
+.header-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+header span {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#menu-button {
+    margin-left: auto;
+    padding: 8px 12px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+/* Navigation */
+nav {
+    background-color: #263238;
+    display: none;
+    flex-direction: column;
+}
+
+nav.show {
+    display: flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #16804a;
+}
+
+nav a.active {
+    background-color: #16804a;
+}
+
+/* Main content */
+main {
+    padding: 15px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #12304a;
+    border-bottom: 2px solid #16804a;
+    padding-bottom: 10px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+section h2 {
+    background-color: #12304a;
+    color: white;
+    padding: 10px;
+    margin-top: 0;
+    text-align: center;
+}
+
+/* Student photo */
+section img {
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Course buttons */
+.course-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.course-buttons button {
+    flex: 1;
+    padding: 10px;
+    background-color: #12304a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.course-buttons button:hover {
+    background-color: #16804a;
+}
+
+/* Course container */
+#course-container {
+    display: grid;
+    gap: 10px;
+}
+
+#course-container div {
+    background-color: #f5f7fa;
+    border: 1px solid #12304a;
+    padding: 12px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#course-container h3 {
+    color: #102b42;
+}
+
+#course-container p {
+    margin: 8px 0;
+}
+
+/* Credit total */
+#credit-total {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #12304a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Completed courses */
+#course-container .completed {
+    background-color: #d1fae5;
+    border: 2px solid #16804a;
+}
+
+#course-container .completed h3 {
+    color: #12663d;
+}
