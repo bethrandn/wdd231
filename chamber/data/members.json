@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Lagos Fresh Foods",
+        "address": "12 Allen Avenue, Ikeja, Lagos",
+        "phone": "+234 801 234 5678",
+        "website": "https://example.com",
+        "image": "lagos-fresh-foods.webp",
+        "membership": 1,
+        "description": "A local business supplying fresh food and agricultural products."
+    },
+    {
+        "name": "BrightTech Solutions",
+        "address": "25 Adeola Odeku Street, Victoria Island, Lagos",
+        "phone": "+234 802 345 6789",
+        "website": "https://example.com",
+        "image": "brighttech.webp",
+        "membership": 2,
+        "description": "Provides technology solutions and digital services to businesses."
+    },
+    {
+        "name": "Golden Crown Hotel",
+        "address": "18 Opebi Road, Ikeja, Lagos",
+        "phone": "+234 803 456 7890",
+        "website": "https://example.com",
+        "image": "golden-crown.webp",
+        "membership": 3,
+        "description": "A hospitality business offering accommodation and event services."
+    },
+    {
+        "name": "Greenfield Farms",
+        "address": "8 Ikorodu Road, Maryland, Lagos",
+        "phone": "+234 804 567 8901",
+        "website": "https://example.com",
+        "image": "greenfield-farms.webp",
+        "membership": 1,
+        "description": "An agricultural business focused on farm produce and distribution."
+    },
+    {
+        "name": "Prime Business Consult",
+        "address": "14 Broad Street, Lagos Island, Lagos",
+        "phone": "+234 805 678 9012",
+        "website": "https://example.com",
+        "image": "prime-consult.webp",
+        "membership": 2,
+        "description": "Offers business advisory and professional consulting services."
+    },
+    {
+        "name": "Cityline Transport",
+        "address": "30 Apapa Road, Ebute Metta, Lagos",
+        "phone": "+234 806 789 0123",
+        "website": "https://example.com",
+        "image": "cityline-transport.webp",
+        "membership": 1,
+        "description": "Provides transportation and logistics services."
+    },
+    {
+        "name": "Elite Properties",
+        "address": "22 Admiralty Way, Lekki Phase 1, Lagos",
+        "phone": "+234 807 890 1234",
+        "website": "https://example.com",
+        "image": "elite-properties.webp",
+        "membership": 3,
+        "description": "Provides property sales, rentals, and real estate services."
+    }
+]
