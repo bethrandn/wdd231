@@ -153,3 +153,7 @@ footer h3 {
     color: #16804A;
     font-weight: bold;
 }
+
+#members.list-view .member-card img {
+    display: none;
+}
