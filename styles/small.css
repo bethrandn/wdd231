@@ -183,3 +183,18 @@ footer a:hover {
 #course-container .completed h3 {
     color: #12663d;
 }
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background-color: #12304A;
+    color: white;
+    padding: 10px;
+    z-index: 1000;
+    text-decoration: none;
+}
+
+.skip-link:focus {
+    top: 0;
+}
