@@ -88,7 +88,13 @@
     }
 
     .hero-content {
-        padding: 30px;
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        right: 30px;
+        background-color: rgba(18, 48, 74, 0.85);
+        border-radius: 8px;
+        padding: 20px;
     }
 
     .current-events,
