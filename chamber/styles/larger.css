@@ -114,15 +114,15 @@
     }
 
     /* Home Page Layout */
-    main {
+    .home-page {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 25px;
     }
 
-    main > h1,
-    .hero,
-    .spotlights {
+    .home-page > h1,
+    .home-page > .hero,
+    .home-page > .spotlights {
         grid-column: 1 / -1;
     }
 
