@@ -74,4 +74,69 @@
     .development-info {
         margin-top: 0;
     }
+
+        /* Chamber Home Page */
+
+    .hero {
+        position: relative;
+    }
+
+    .hero img {
+        width: 100%;
+        max-height: 450px;
+        object-fit: cover;
+    }
+
+    .hero-content {
+        padding: 30px;
+    }
+
+    .current-events,
+    .weather,
+    .spotlights {
+        min-height: 250px;
+    }
+
+    .spotlights {
+        width: 100%;
+    }
+
+    #spotlight-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    /* Home Page Layout */
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+
+    main > h1,
+    .hero,
+    .spotlights {
+        grid-column: 1 / -1;
+    }
+
+    .current-events,
+    .weather {
+        margin-bottom: 0;
+    }
+
+    /* Weather Forecast Layout */
+    #weather-forecast {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    #weather-forecast h3 {
+        grid-column: 1 / -1;
+    }
+
+    .forecast-day {
+        margin-bottom: 0;
+    }
 }

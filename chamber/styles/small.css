@@ -157,3 +157,174 @@ footer h2 {
 #members.list-view .member-card img {
     display: none;
 }
+/* Chamber Home Page */
+
+/* Hero Section */
+
+.hero {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero-content {
+    background-color: #12304A;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+.hero-content h2 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.join-button {
+    display: inline-block;
+    background-color: #E5A000;
+    color: #12304A;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 22px;
+    border-radius: 4px;
+}
+
+.join-button:hover {
+    background-color: #16804A;
+    color: white;
+}
+
+/* Events and Weather Sections */
+
+.current-events,
+.weather,
+.spotlights {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.current-events h2,
+.weather h2,
+.spotlights h2 {
+    color: #12304A;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Business Spotlight Cards */
+
+.spotlight-card {
+    background-color: #F5F7FA;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.spotlight-card h3 {
+    color: #12304A;
+    margin-bottom: 12px;
+}
+
+.spotlight-card img {
+    width: 100%;
+    max-width: 230px;
+    height: 150px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.spotlight-card p {
+    margin-bottom: 8px;
+}
+
+.spotlight-card a {
+    color: #16804A;
+    font-weight: bold;
+}
+
+/* Current Weather Information */
+
+#current-weather {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+#current-weather img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+/* Three-Day Weather Forecast */
+
+#weather-forecast {
+    text-align: center;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#weather-forecast h3 {
+    color: #12304A;
+    margin-bottom: 15px;
+    flex-basis: 100%;
+    
+}
+
+.forecast-day {
+    background-color: #F5F7FA;
+    border-radius: 8px;
+    padding: 15px;
+    flex: 1 1 150px;
+    margin-bottom: 0;
+}
+
+.forecast-day h4 {
+    color: #12304A;
+    margin-bottom: 8px;
+}
+
+.forecast-day img {
+    display: block;
+    width: 80px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.forecast-day p {
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+/* Current Events Card */
+.event-card {
+    background-color: #F5F7FA;
+    border-left: 5px solid #16804A;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.event-card h3 {
+    color: #12304A;
+    margin-bottom: 12px;
+}
+
+.event-card p {
+    margin-bottom: 10px;
+}
