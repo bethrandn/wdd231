@@ -328,3 +328,161 @@ footer h2 {
 .event-card p {
     margin-bottom: 10px;
 }
+
+/* Join Page */
+.join-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin: 20px 0;
+}
+
+.membership-form,
+.membership-levels {
+    background-color: #F5F7FA;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.membership-form h2,
+.membership-levels h2 {
+    color: #12304A;
+    margin-bottom: 20px;
+}
+
+.membership-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.membership-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-weight: 500;
+    color: #263238;
+}
+
+.membership-form input:not([type="submit"]),
+.membership-form select,
+.membership-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #B0BEC5;
+    border-radius: 5px;
+    background-color: white;
+    font: inherit;
+}
+
+.membership-form input[type="submit"]:focus {
+    outline: 2px solid #16804A;
+    outline-offset: 3px;
+}
+
+.membership-form textarea {
+    resize: vertical;
+}
+
+.membership-form input:focus,
+.membership-form select:focus,
+.membership-form textarea:focus {
+    outline: 2px solid #16804A;
+    border-color: #16804A;
+}
+
+.membership-form input[type="submit"] {
+    width: auto;
+    align-self: center;
+    padding: 12px 24px;
+    background-color: #12304A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.membership-form input[type="submit"]:hover {
+    background-color: #16804A;
+}
+.membership-card {
+    max-width: 300px;
+    margin: 15px auto;
+    background-color: white;
+    border: 1px solid #16804A;
+    border-radius: 8px;
+    padding: 18px;
+    text-align: center;
+    animation: cardEntrance 1s ease-in-out;
+}
+
+.membership-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #12304A;
+    font-weight: bold;
+}
+
+.membership-card a:hover,
+.membership-card a:focus {
+    color: #16804A;
+    text-decoration: underline;
+}
+
+@keyframes cardEntrance {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Membership Dialogs */
+dialog {
+    width: 90%;
+    max-width: 450px;
+    margin: auto;
+    padding: 25px;
+    border: none;
+    border-radius: 8px;
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+dialog button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #12304A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Thank You Page */
+.application-summary {
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: #F5F7FA;
+    border-radius: 8px;
+    border-left: 5px solid #16804A;
+}
+
+.application-summary h2 {
+    color: #12304A;
+    margin-bottom: 20px;
+}
+
+.application-summary p {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
